@@ -7,7 +7,7 @@ from matplotlib.ticker import AutoMinorLocator
 
 
 #Creating Dataframe
-df = pd.read_csv("PEP_2015_PEPAGESEX_with_ann.csv", index_col = 0, usecols = (2,3,4,5), header = None, skiprows = (0,1,2), names = ["State","Both Sexes","Male","Female"] )
+df = pd.read_csv("U_S_Pop_Data.csv", index_col = 0, usecols = (2,3,4,5), header = None, skiprows = (0,1,2), names = ["State","Both Sexes","Male","Female"] )
 pd.set_option('display.width', 160)
 
 #Initialzing the figure for customization, then changing the bg color to white
